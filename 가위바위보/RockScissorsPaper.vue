@@ -48,7 +48,7 @@
         },
         methods : {
             changeHand(){
-                
+                    console.log("체인지핸드");
                     interval = setInterval(()=>{
                         if(this.imgCoord == rspCoords.scissors){
                             this.imgCoord = rspCoords.paper;
